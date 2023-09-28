@@ -1,0 +1,81 @@
+#menu {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f3f3f3;
+}
+
+@media (max-width: 768px) {
+  #introduccion {
+    width: 90% !important;
+  }
+}
+.carousel-inner {
+  max-height: 39rem;
+}
+
+footer {
+  background-color: #3f3f3f;
+  min-height: 100px;
+  position: absolute;
+  bottom: 5px;
+  left: -2px;
+}
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
+
+#iconos {
+  font-size: 26px;
+  padding: 0 8px;
+  color: yellow;
+}
+
+.mapa {
+  text-align: center;
+  color: yellow;
+  font-size: 40px;
+}
+
+@keyframes moverDeLadoALado {
+  0% {
+    remote: origin;
+    already: exist transform;
+    translateX: 0;
+  }
+  50% {
+    transform: translateX(250px);
+  }
+}
+/* Aplicar la animacion */
+.cuadrado {
+  animation: moverDeLadoALado 5s ease-in-out infinite;
+  /* Aplico la animacion con movimiento lento */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.miprimeranimacion {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f3;
+  animation: colorChange 5s linear infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #f3f3f3;
+  }
+  50% {
+    background-color: #3f3f3f;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
